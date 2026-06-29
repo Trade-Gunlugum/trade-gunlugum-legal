@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trade Günlüğüm - Destek</title>
+  <meta name="description" content="Trade Günlüğüm destek sayfası">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f4;
+      --panel: #ffffff;
+      --text: #17201d;
+      --muted: #64706b;
+      --accent: #0f8f5f;
+      --line: #dde4de;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1210;
+        --panel: #141b18;
+        --text: #edf4ef;
+        --muted: #a6b4ad;
+        --accent: #52d492;
+        --line: #28352f;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 7vw, 48px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    p, li {
+      font-size: 17px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    nav {
+      margin-top: 24px;
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="eyebrow">Trade Günlüğüm</div>
+      <h1>Destek</h1>
+      <p class="muted">Son güncelleme: 28 Haziran 2026</p>
+
+      <p>
+        Trade Günlüğüm, SPOT, VİOP ve fon işlemlerinizi kendi cihazınızda takip
+        etmeniz için geliştirilmiş kişisel bir işlem günlüğüdür.
+      </p>
+
+      <h2>Destek Talebi</h2>
+      <p>
+        Destek talepleri için lütfen uygulama adı, iOS sürümü, cihaz modeli ve
+        yaşadığınız sorunun kısa açıklamasıyla birlikte iletişime geçin:
+        <a href="mailto:destek@example.com">destek@example.com</a>
+      </p>
+
+      <h2>Önemli Not</h2>
+      <p>
+        Uygulama yatırım danışmanlığı, emir iletimi veya alım satım tavsiyesi sunmaz.
+        Hesaplamalar takip ve bilgilendirme amaçlıdır.
+      </p>
+
+      <nav>
+        <a href="./index.html">Gizlilik Politikası</a>
+      </nav>
+    </article>
+  </main>
+</body>
+</html>
