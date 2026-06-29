@@ -8,7 +8,7 @@ Bu klasör App Store Connect için gereken herkese açık sayfaları içerir:
 ## En Pratik Yayınlama Yolu
 
 1. GitHub'da yeni bir public repo oluştur:
-   `yatirim-gunlugum-legal`
+   `trade-gunlugum-legal`
 2. Bu klasördeki dosyaları repo köküne yükle.
 3. GitHub repo sayfasında `Settings > Pages` bölümüne gir.
 4. `Deploy from a branch` seç.
@@ -19,8 +19,8 @@ Bu klasör App Store Connect için gereken herkese açık sayfaları içerir:
 App Store Connect alanları:
 
 - Privacy Policy URL:
-  `https://kullanici-adin.github.io/yatirim-gunlugum-legal/`
+  `https://kullanici-adin.github.io/trade-gunlugum-legal/`
 - Support URL:
-  `https://kullanici-adin.github.io/yatirim-gunlugum-legal/support.html`
+  `https://kullanici-adin.github.io/trade-gunlugum-legal/support.html`
 
 Yayınlamadan önce `destek@example.com` adresini kendi destek e-posta adresinle değiştir.
